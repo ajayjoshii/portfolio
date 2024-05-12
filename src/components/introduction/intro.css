@@ -1,0 +1,63 @@
+#section{
+    height: calc(100vh-5rem);
+    max-width: 75rem;
+    width: 100vw;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+.intro{
+    height: 100vh;
+    width: 100vw;
+    padding: 2rem;
+    font-size: 2.7rem;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.hlo{
+    font-size: 2rem;
+    font-weight: 200;
+}
+.name2{
+    color: yellowgreen;
+    
+}
+.para{
+    font-size: medium;
+    font-weight: 100;
+}
+.btn2{
+    background-color: white;
+    padding: 0.7rem 1.5rem ;
+    margin: 1rem 0;
+    border-radius: 15px;
+    border: none;
+}
+.bg{
+    position: absolute;
+    top: -1rem;
+    object-fit: cover;
+    right: 0;
+    height: 100vh;
+    z-index: -1;
+}
+@media screen and (max-width:840px){
+    .bg{
+        right: -10vh;
+    }
+    .hlo{
+        font-size: 4.5vw;
+    }
+    .intro{
+        font-size: 10vw;
+
+    }
+}
+@media screen and (max-width:480px){
+    .bg{
+        right: -20vh;
+    }
+   
+}
